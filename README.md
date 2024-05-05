@@ -1,6 +1,8 @@
 # Signature Generator Dapp
 
-This project will help us understand how to verify a message signature on Ethereum. We will be using Ether.js for this project. Message signatures requires a message and an Ethereum private key to be generated. This can be used as a digital verification system for any application that requires a user to prove their identity. In case of e-signing of documents or pdfs, this application can be utilized. The signature verification process doe snot require us to conenct to Ethereum network as it requires a message, the wallet address (public key) and private key for generation of signature hash. The entire process happens off-chain and it has no gas costs. 
+This project will help us understand how to verify a message signature on Ethereum. We will be using Ether.js for this project. Message signatures requires a message and an Ethereum private key to be generated. This can be used as a digital verification system for any application that requires a user to prove their identity.
+
+In case of e-signing of documents or pdfs, this application can be utilized. The signature verification process doe snot require us to conenct to Ethereum network as it requires a message, the wallet address (public key) and private key for generation of signature hash. The entire process happens off-chain and it has no gas costs. 
 
 We will be understanding how a signature is generated and verified. We will be building a signature generation Dapp using React JS, using Ether.js we will be connecting to the front end such that it lets us to conenct to Metamask wallet to sign and verify messages. 
 
